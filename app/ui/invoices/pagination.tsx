@@ -117,7 +117,6 @@ function PaginationArrow({
     ) : (
       <ArrowRightIcon className="w-4" />
     );
-
   return isDisabled ? (
     <div className={className}>{icon}</div>
   ) : (
